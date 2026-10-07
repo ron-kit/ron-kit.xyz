@@ -7,6 +7,7 @@ index.html          home page  -> ron-kit.xyz/
 about/index.html    -> ron-kit.xyz/about/
 projects/index.html -> ron-kit.xyz/projects/
 posts/index.html    -> ron-kit.xyz/posts/
+photos/index.html   -> ron-kit.xyz/photos/
 css/style.css       styling for every page
 img/                images
 ```
