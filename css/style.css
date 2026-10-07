@@ -1,0 +1,44 @@
+/* One stylesheet for the whole site. Change colors here. */
+:root {
+  --bg: #111;
+  --text: #ddd;
+  --accent: #6cf;
+  --muted: #888;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-monospace, "Fira Code", Menlo, Consolas, monospace;
+  line-height: 1.6;
+}
+
+/* Top menu */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #333;
+}
+nav a { color: var(--accent); text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+nav .home { color: var(--text); font-weight: bold; margin-right: auto; }
+
+main {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+img { max-width: 100%; height: auto; border-radius: 6px; }
+
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 2rem 0;
+}
