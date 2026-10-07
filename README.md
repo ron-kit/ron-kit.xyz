@@ -1,10 +1,10 @@
 # ron-kit.xyz
 
-Plain HTML/CSS portfolio. No build step: what's in `site/` is the website.
+Simple HTML/CSS portfolio.
 
 ```
 site/
-  index.html           home page  -> ron-kit.xyz/
+  index.html           home page
   about/index.html     -> ron-kit.xyz/about/
   projects/index.html  -> ron-kit.xyz/projects/
   posts/index.html     -> ron-kit.xyz/posts/

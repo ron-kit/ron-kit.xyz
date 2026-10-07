@@ -12,7 +12,8 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: ui-monospace, "Fira Code", Menlo, Consolas, monospace;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  /* Alternative: font-family: "IBM Plex Sans", sans-serif; */
   line-height: 1.6;
 }
 
