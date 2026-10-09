@@ -3,10 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Posts · Ron</title>
+  <title>$title$</title>
   <link rel="icon" href="/img/favicon.ico">
   <link rel="stylesheet" href="/css/fonts.css">
   <link rel="stylesheet" href="/css/style.css">
+$if(highlighting-css)$
+  <style>
+$highlighting-css$
+  </style>
+$endif$
+$for(header-includes)$
+  $header-includes$
+$endfor$
+$if(math)$
+  $math$
+$endif$
 </head>
 <body>
   <nav>
@@ -17,8 +28,7 @@
     <a href="/photos/">photos/</a>
   </nav>
   <main>
-    <h1>Posts</h1>
-    <p>Placeholder: list of posts.</p>
+$body$
   </main>
   <footer>© 2026 Ron</footer>
 </body>
