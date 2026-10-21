@@ -29,6 +29,12 @@ nav a { color: var(--accent); text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 nav .home { color: var(--text); font-weight: bold; margin-right: auto; }
 
+/* Phones: site name on its own line, category links on the line below */
+@media (max-width: 600px) {
+  nav { gap: 0.25rem 1rem; padding: 1rem; font-size: 0.9rem; }
+  nav .home { flex-basis: 100%; }
+}
+
 main {
   max-width: 48rem;
   margin: 0 auto;

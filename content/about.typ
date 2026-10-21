@@ -2,11 +2,24 @@
 
 #title[About]
 
-Placeholder: who you are. This page is written in *Typst*.
+= Hi, I'm Ron.
 
-Math works natively: $e^(i pi) + 1 = 0$, and as a block:
+I'm a 5th year engineering physics student at UBC minoring in honours math.
 
-$ sum_(k=1)^n k = (n(n+1)) / 2 $
+I'm interested in, and have previously worked with:
++ control systems
++ closed-loop simulators
++ hardware integration
 
-// Images: use html.img so the file is linked, not embedded in the page.
+with applications in:
++ space exploration
++ energy networks
++ autonomous vehicles. 
+
+In my free time I enjoy:
++ hiking
++ biking
++ playing guitar
++ making origami
+
 #html.img(src: "/img/penguin_step.jpg", alt: "A gentoo penguin stepping across a rock")
